@@ -1,0 +1,316 @@
+﻿<repository
+id="ccd4f383-1cf1-4df3-8f1a-60a47f4ce3f9"
+name="web_testing_examplesRepository"
+rxversion="7.0">
+	<codegen
+	classname="web_testing_examplesRepository"
+	namespace="web_testing_examples">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="71c46e42-d3c5-4a80-9435-9c648c72ebb0"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="58ff8a75-6faa-4ca4-9f66-b21d9f6edeb4"
+		isrooted="True"
+		name="RanorexTestPage"
+		refimgid="adc2baeb-a00e-48e5-b63c-d91e558003ee"
+		refpath="/dom[@domain='www.ranorex.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="fbec5051-2675-4487-b29a-8811f2288d32"
+			name="Menu1"
+			refimgid="88903e5e-4a55-43f4-85b7-f86f89afbbda"
+			refpath="/dom[@domain='www.ranorex.com']//ul[#'nav']/li[1]/a[@innertext='Menu 1']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//ul[#'nav']/?/?/a[@innertext='Menu 1']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="d423d4f7-188c-4407-90ed-64cdd4582830"
+			name="Subitem2"
+			refimgid="2d3b507e-224e-4f69-b4b0-3bd46e590740"
+			refpath="/dom[@domain='www.ranorex.com']//ul[#'nav']/li[1]/ul/li[2]/a[@innertext='Subitem 2']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//ul[#'nav']/?/?/ul/?/?/a[@innertext='Subitem 2']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4d415a2c-c213-4b7e-b358-95cbd5c2f020"
+			name="Testname"
+			refimgid="91335000-5015-40b5-ba32-8969e1bd2bfd"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'testname']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'testname']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e5578bca-a215-4f9a-ad68-1e1a82b523d7"
+			name="Testemail"
+			refimgid="a06a2189-d5da-417a-aad5-6f80d73e6077"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'testemail']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'testemail']
+			</item>
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="53261d83-8c87-4b05-8546-89b805b825d8"
+			name="SomeBodyTag"
+			refimgid="03e8af0b-834a-4197-b94d-4627aa4fb857"
+			refpath="/dom[@domain='www.ranorex.com']/body"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']/body
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="9ef39c80-0c5c-4f2c-bbd9-6083679df5a0"
+			name="Calendar"
+			refimgid="3075197e-407f-4062-9abf-e3592af5dc55"
+			refpath="/dom[@domain='www.ranorex.com']//form[#'testform']/fieldset/ol/li[3]/button"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//form[#'testform']/?/?/ol/?/?/button
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="beb20ba8-fc45-40c6-8f99-14c305b2c013"
+			name="ThuApr13th2017"
+			refimgid="3ad28bf9-c6b5-46ad-a5f5-4b57798d3e25"
+			refpath="/dom[@domain='www.ranorex.com']/body/div[2]/div/table/tbody/tr[4]/td[@title='Thu Apr 13th 2017']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']/body/div[2]/?/?/table/tbody/tr[4]/td[@title='Thu Apr 13th 2017']
+			</item>
+			<item
+			addcaps="unknown,webelement,optiontag"
+			capname="optiontag"
+			id="f3657d7f-2e18-4e1d-a99e-e89418632647"
+			name="Blue"
+			refimgid="e7994e4c-c321-403b-a861-c17e9a59e662"
+			refpath="/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='blue']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='blue']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="1fb7c4e1-48a2-44ee-8e82-ae643da4f873"
+			name="Testmultiple"
+			refimgid="7f04ae69-5636-46ca-b862-edbf65fd57a2"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//select[#'testmultiple']
+			</item>
+			<item
+			addcaps="unknown,webelement,optiontag"
+			capname="optiontag"
+			id="2546f8cf-8984-4493-a168-a51311f3902c"
+			name="OptionTagRed"
+			refimgid="9ef31c24-c481-4810-b90d-d131b63e630d"
+			refpath="/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='red']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='red']
+			</item>
+			<item
+			addcaps="unknown,webelement,optiontag"
+			capname="optiontag"
+			id="552323d2-146f-4ea5-8041-767126f63bdc"
+			name="Gray"
+			refimgid="1ea11e61-bfd1-4396-b0a4-9efd53eb7537"
+			refpath="/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='gray']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='gray']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="32c9a657-0172-44ee-87e8-6af62dca8ebb"
+			name="Submit"
+			refimgid="b3e82448-5bbe-4f27-b6dd-9cba03e43600"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,pretag"
+			capname="pretag"
+			id="1763f1f6-1a6e-42e0-830f-36d111ebbee4"
+			name="ArrayTestnameEqUserName"
+			refimgid="601f841d-0e78-49a6-a807-693c5070e69c"
+			refpath="/dom[@domain='www.ranorex.com']/body/pre[@innertext='Array(    [testname] => UserName    [testemail] => UserMail@mail.test    [testdate] => 13/04/2017    [testcolor] => green    [testmultiple] => Array        (            [0] => blue            [1] => red            [2] => gray        ))']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']/?/?/pre[@innertext~'^Array\(\ \ \ \ \[testname]\ =&gt;']
+			</item>
+			<item
+			addcaps="unknown,webelement,optiontag"
+			capname="optiontag"
+			id="0f1eb2c6-a31d-43cc-bc1f-6123f60cc674"
+			name="Green"
+			refimgid="53a95bea-38f1-411c-8bfa-91fe25014649"
+			refpath="/dom[3]//select[#'testmultiple']/option[@value='green']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='green']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="baea20b2-f16d-4ae6-a57e-4905cd89aecb"
+			name="Testdate"
+			refimgid="8fc89839-b29f-4ef9-b450-3b2ee24a0928"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'testdate']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'testdate']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c07fc419-d765-48f0-95a3-75bab194f444"
+			name="Value1"
+			refimgid="583b563e-18ec-4282-a3ae-0db0a74aa079"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'value1']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9609b147-5f7d-4ea0-b3e2-fa14e69f8d04"
+			name="Value2"
+			refimgid="50af3066-5197-4d8e-a643-764ec0138900"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'value2']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'value2']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="754638dc-0bc4-41cd-8021-c2808f9ff537"
+			name="SubmitAjax"
+			refimgid="ca980a59-069f-4dbc-8ee1-2de348c16809"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'submit-ajax']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'submit-ajax']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f889e3d0-b7a2-4667-b743-5464c457b30a"
+			name="AjaxOut"
+			refimgid="d1d53dca-8de0-4e64-a063-759f40e9696a"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'ajax_out']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'ajax_out']
+			</item>
+			<item
+			addcaps="unknown,webelement,formtag"
+			capname="formtag"
+			id="33e1ee9f-2da8-462e-bf63-85e4efa69759"
+			name="Testform"
+			refimgid="47da1d90-77fb-4cba-a49e-65d2ffcccec7"
+			refpath="/dom[@domain='www.ranorex.com' and @caption='Ranorex Test Page']//form[#'testform']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//form[#'testform']
+			</item>
+			<item
+			addcaps="unknown,webelement,pretag"
+			capname="pretag"
+			id="c90bb30e-4c26-4420-ab27-b90608704770"
+			name="ArrayValue1Eq1Value2E1"
+			refimgid="24d09fae-dab6-4af6-8021-37a2b4a52c4e"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'ajax_out']/pre[@innertext~'Array(    [value1] =&gt; 1    [value2] =&gt; 2    [color2] =&gt; green)']
+			</item>
+			<item
+			addcaps="unknown,webelement,pretag"
+			capname="pretag"
+			id="8582ee05-09da-45e8-86e5-7489a314bedf"
+			name="ArrayValue1Eq1Value2E"
+			refimgid="ac5cc2fd-be85-47c3-b8f3-fb71693a21eb"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'ajax_out']/pre[@innertext='Array(    [value1] => 1    [value2] => 2    [color2] => green)']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'ajax_out']/pre[@innertext~'^Array\(\ \ \ \ \[value1]\ =&gt;\ 1']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="37a0fe02-ff1b-45fb-8521-e27c972e818b"
+		isrooted="True"
+		name="WwwRanorexComWebTestingExamplesFor"
+		refpath="/form[@title='www.ranorex.com/web-testing-examples/form.php - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="ece8756f-fc70-48f1-955e-600552d46683"
+			name="IntermediateD3DWindow"
+			refimgid="3da71c67-3334-4cbe-91ec-c6d2cd690db7"
+			refpath="/form[@title~'^www\.ranorex\.com/web-testi']/element[@class='Intermediate D3D Window']"
+			searchtimeout="30000ms">
+				/form[@title~'^www\.ranorex\.com/web-testi']/element[@class='Intermediate D3D Window']
+			</item>
+			<basepath>
+				/form[@title~'^www\.ranorex\.com/web-testi']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="de9de425-7b57-4678-8ef8-c7b937baef4f"
+		name="Variable1">
+			1
+		</var>
+		<var
+		id="fdf372bb-95e4-418b-b42e-29521b9ecc13"
+		name="Variable2">
+			2
+		</var>
+	</variables>
+</repository>

@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="58a2de5065c0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sergii.Pankrashyn"
+		host="SPANKRASHYN-NN"
+		rxversion="7.0.0.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="13-Apr-17 1:05:15 AM"
+		timestampiso="2017-04-12T22:05:15"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="30.73s"
+			durationms="30733"
+			type="test-suite"
+			rid="1ec2e192f24a7ed"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="web-testing-examples"
+			headertext="web-testing-examples"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="30.7s"
+				durationms="30702"
+				type="iteration-container"
+				rid="f879f09b234c6ac"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				displayName="TestCase"
+				headertext="TestCase"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="5ab58b6b-cfe2-4dee-8119-75bfc7efbe33"
+				datasource="NewConnector"
+				dataiterationcount="1">
+				<activity
+					result="Success"
+					duration="30.7s"
+					durationms="30702"
+					type="test-case"
+					rid="68b1798ade04e04"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					totalsuccesscount="6"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcontainername="TestCase"
+					testcontainerid="5ab58b6b-cfe2-4dee-8119-75bfc7efbe33"
+					headertext="TestCase"
+					displayName="TestCase"
+					iteration="1"
+					activity-exectype="dataiteration">
+					<datarow>
+						<field
+							name="Value 1">
+							1
+						</field>
+						<field
+							name="Value 2">
+							2
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="253ms"
+						durationms="253"
+						type="test-module"
+						rid="8b8838808bd11e8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="A_Open_link"
+						displayName="A_Open_link"
+						moduleid="3d857058-892e-4da1-97ed-72be751e55ad"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.400"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="01:05:15"
+							time="00:00.400"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'http://www.ranorex.com/web-testing-examples/' with browser 'chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\A_Open_link.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="3.79s"
+						durationms="3785"
+						type="test-module"
+						rid="6e81773c40b897b"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="B_Click_menu"
+						displayName="B_Click_menu"
+						moduleid="2cf9e796-d548-4cee-aef1-f1c04f6c053f"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.654"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="01:05:15"
+							time="00:00.654"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'RanorexTestPage.Menu1' at 24;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//ul[#'nav']/?/?/a[@innertext='Menu 1']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Menu1"
+								id="fbec505126754487b29a8811f2288d32"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\B_Click_menu.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.385"
+							timeRelativeToTestModuleStartTime="00:02.731"
+							timeWallClock="01:05:18"
+							time="00:03.385"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'RanorexTestPage.Subitem2' at 36;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//ul[#'nav']/?/?/ul/?/?/a[@innertext='Subitem 2']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Subitem2"
+								id="d423d4f7188c440790ed64cdd4582830"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\B_Click_menu.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="10.55s"
+						durationms="10550"
+						type="test-module"
+						rid="1b38b44d1abda26"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="C_Fill_Test_Form"
+						displayName="C_Fill_Test_Form"
+						moduleid="190c882f-8743-472d-98c4-31007acf4b97"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.443"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="01:05:19"
+							time="00:04.443"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left DoubleClick item 'RanorexTestPage.Testname' at 8;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'testname']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Testname"
+								id="4d415a2cc2134b7eb35895cbd5c2f020"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.560"
+							timeRelativeToTestModuleStartTime="00:01.120"
+							timeWallClock="01:05:20"
+							time="00:05.560"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'name' with focus on 'RanorexTestPage.Testname'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'testname']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Testname"
+								id="4d415a2cc2134b7eb35895cbd5c2f020"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.454"
+							timeRelativeToTestModuleStartTime="00:02.014"
+							timeWallClock="01:05:21"
+							time="00:06.454"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left DoubleClick item 'RanorexTestPage.Testemail' at 14;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'testemail']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Testemail"
+								id="e5578bcaa2154f9aad681e1a82b523d7"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.553"
+							timeRelativeToTestModuleStartTime="00:03.113"
+							timeWallClock="01:05:22"
+							time="00:07.553"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'email' with focus on 'RanorexTestPage.Testemail'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'testemail']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Testemail"
+								id="e5578bcaa2154f9aad681e1a82b523d7"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.522"
+							timeRelativeToTestModuleStartTime="00:04.082"
+							timeWallClock="01:05:23"
+							time="00:08.522"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'RanorexTestPage.Testdate' at 76;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'testdate']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Testdate"
+								id="baea20b2f16d4ae6a57e4905cd89aecb"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="98"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.474"
+							timeRelativeToTestModuleStartTime="00:05.034"
+							timeWallClock="01:05:24"
+							time="00:09.474"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'RanorexTestPage.ThuApr13th2017' at 10;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']/body/div[2]/?/?/table/tbody/tr[4]/td[@title='Thu Apr 13th 2017']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.ThuApr13th2017"
+								id="beb20ba8fc4540c68f9914c305b2c013"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="102"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.451"
+							timeRelativeToTestModuleStartTime="00:06.011"
+							timeWallClock="01:05:25"
+							time="00:10.451"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'RanorexTestPage.OptionTagRed' at 10;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='red']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.OptionTagRed"
+								id="2546f8cf89844493a168a51311f3902c"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="106"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.477"
+							timeRelativeToTestModuleStartTime="00:07.037"
+							timeWallClock="01:05:26"
+							time="00:11.477"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{LControlKey down}' with focus on 'RanorexTestPage.Testmultiple'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//select[#'testmultiple']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Testmultiple"
+								id="1fb7c4e148a244ee8e82ae643da4f873"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="110"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.875"
+							timeRelativeToTestModuleStartTime="00:07.435"
+							timeWallClock="01:05:26"
+							time="00:11.875"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'RanorexTestPage.Blue' at 23;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='blue']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Blue"
+								id="f3657d7f2e184e1da99ee89418632647"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="114"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.846"
+							timeRelativeToTestModuleStartTime="00:08.406"
+							timeWallClock="01:05:27"
+							time="00:12.846"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'RanorexTestPage.Gray' at 21;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//select[#'testmultiple']/option[@value='gray']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Gray"
+								id="552323d2146f4ea58041767126f63bdc"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="118"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.855"
+							timeRelativeToTestModuleStartTime="00:09.415"
+							timeWallClock="01:05:28"
+							time="00:13.855"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{LControlKey up}' with focus on 'RanorexTestPage.Testmultiple'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//select[#'testmultiple']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Testmultiple"
+								id="1fb7c4e148a244ee8e82ae643da4f873"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="122"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.257"
+							timeRelativeToTestModuleStartTime="00:09.817"
+							timeWallClock="01:05:29"
+							time="00:14.257"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'RanorexTestPage.Submit' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'submit']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Submit"
+								id="32c9a657017244ee87e86af62dca8ebb"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\C_Fill_Test_Form.cs"
+								codeline="126"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="6.46s"
+						durationms="6463"
+						type="test-module"
+						rid="1f8b27d10fb5ddf8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="D_Check_value"
+						displayName="D_Check_value"
+						moduleid="3781234b-0d5d-43ce-921d-b55563d3c1ac"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.994"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="01:05:30"
+							time="00:14.994"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='Array
+(
+    [testname] =&gt; name
+    [testemail] =&gt; email
+    [testdate] =&gt; 13/04/2017
+    [testcolor] =&gt; green
+    [testmultiple] =&gt; Array
+        (
+            [0] =&gt; blue
+            [1] =&gt; red
+            [2] =&gt; gray
+        )
+
+)
+') on item 'RanorexTestPage.ArrayTestnameEqUserName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']/?/?/pre[@innertext~'^Array\(\ \ \ \ \[testname]\ =>']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.ArrayTestnameEqUserName"
+								id="1763f1f61a6e42e0830f36d111ebbee4"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\D_Check_value.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.476"
+							timeRelativeToTestModuleStartTime="00:05.484"
+							timeWallClock="01:05:35"
+							time="00:20.476"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'web_testing_examplesRepository.RanorexTestPage.ArrayTestnameEqUserName' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']/?/?/pre[@innertext~'^Array\(\ \ \ \ \[testname]\ =>']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.ArrayTestnameEqUserName"
+								id="1763f1f61a6e42e0830f36d111ebbee4"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\D_Check_value.cs"
+								codeline="83"
+								loglvl="Success"
+								itemindex="0">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.612"
+							timeRelativeToTestModuleStartTime="00:05.620"
+							timeWallClock="01:05:35"
+							time="00:20.612"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'WwwRanorexComWebTestingExamplesFor.IntermediateD3DWindow' at 18;57.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^www\.ranorex\.com/web-testi']/element[@class='Intermediate D3D Window']"
+								fullname="web_testing_examplesRepository.WwwRanorexComWebTestingExamplesFor.IntermediateD3DWindow"
+								id="ece8756ffc7048f1955e600552d46683"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\D_Check_value.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="4.46s"
+						durationms="4456"
+						type="test-module"
+						rid="f49f69150a32200"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="E_Fill_Test_form_with_Ajax"
+						displayName="E_Fill_Test_form_with_Ajax"
+						moduleid="c674ffe9-249b-436b-8ae0-d59f9d650269"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="Variable1"
+								value="1">
+							</varbinding>
+							<varbinding
+								name="Variable2"
+								value="2">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.468"
+							timeRelativeToTestModuleStartTime="00:00.011"
+							timeWallClock="01:05:36"
+							time="00:21.468"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$Variable1 = '1', $Variable2 = '2'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.507"
+							timeRelativeToTestModuleStartTime="00:00.050"
+							timeWallClock="01:05:36"
+							time="00:21.507"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left DoubleClick item 'RanorexTestPage.Value1' at 9;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'value1']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Value1"
+								id="c07fc419d76548f095a375bab194f444"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\E_Fill_Test_form_with_Ajax.cs"
+								codeline="104"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.634"
+							timeRelativeToTestModuleStartTime="00:01.176"
+							timeWallClock="01:05:37"
+							time="00:22.634"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$Variable1' with focus on 'RanorexTestPage.Value1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'value1']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Value1"
+								id="c07fc419d76548f095a375bab194f444"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\E_Fill_Test_form_with_Ajax.cs"
+								codeline="108"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.272"
+							timeRelativeToTestModuleStartTime="00:01.814"
+							timeWallClock="01:05:38"
+							time="00:23.272"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left DoubleClick item 'RanorexTestPage.Value2' at 27;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'value2']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Value2"
+								id="9609b1475f7d4ea0b3e2fa14e69f8d04"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\E_Fill_Test_form_with_Ajax.cs"
+								codeline="112"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.389"
+							timeRelativeToTestModuleStartTime="00:02.931"
+							timeWallClock="01:05:39"
+							time="00:24.389"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$Variable2' with focus on 'RanorexTestPage.Value2'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'value2']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.Value2"
+								id="9609b1475f7d4ea0b3e2fa14e69f8d04"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\E_Fill_Test_form_with_Ajax.cs"
+								codeline="116"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.005"
+							timeRelativeToTestModuleStartTime="00:03.547"
+							timeWallClock="01:05:40"
+							time="00:25.005"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'RanorexTestPage.SubmitAjax' at 38;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//input[#'submit-ajax']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.SubmitAjax"
+								id="754638dc0bc441cd8021c2808f9ff537"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\E_Fill_Test_form_with_Ajax.cs"
+								codeline="120"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="5.16s"
+						durationms="5158"
+						type="test-module"
+						rid="192c42970a550108"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="F_Check_value"
+						displayName="F_Check_value"
+						moduleid="0f357fa2-f0a0-4342-8e07-1bba698ab656"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.913"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="01:05:41"
+							time="00:25.913"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Visible='True') on item 'RanorexTestPage.AjaxOut'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//div[#'ajax_out']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.AjaxOut"
+								id="f889e3d0b7a24667b7435464c457b30a"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\F_Check_value.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.065"
+							timeRelativeToTestModuleStartTime="00:00.151"
+							timeWallClock="01:05:41"
+							time="00:26.065"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Visible' of element for item 'web_testing_examplesRepository.RanorexTestPage.AjaxOut' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//div[#'ajax_out']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.AjaxOut"
+								id="f889e3d0b7a24667b7435464c457b30a"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\F_Check_value.cs"
+								codeline="83"
+								loglvl="Success"
+								itemindex="0">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.198"
+							timeRelativeToTestModuleStartTime="00:00.284"
+							timeWallClock="01:05:41"
+							time="00:26.198"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='Array
+(
+    [value1] =&gt; 1
+    [value2] =&gt; 2
+    [color2] =&gt; green
+)
+') on item 'RanorexTestPage.ArrayValue1Eq1Value2E'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//div[#'ajax_out']/pre[@innertext~'^Array\(\ \ \ \ \[value1]\ =>\ 1']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.ArrayValue1Eq1Value2E"
+								id="8582ee0509da45e886e57489a314bedf"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\F_Check_value.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:30.940"
+							timeRelativeToTestModuleStartTime="00:05.026"
+							timeWallClock="01:05:46"
+							time="00:30.940"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'web_testing_examplesRepository.RanorexTestPage.ArrayValue1Eq1Value2E' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//div[#'ajax_out']/pre[@innertext~'^Array\(\ \ \ \ \[value1]\ =>\ 1']"
+								fullname="web_testing_examplesRepository.RanorexTestPage.ArrayValue1Eq1Value2E"
+								id="8582ee0509da45e886e57489a314bedf"
+								timeout="60000"
+								codefile="c:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\F_Check_value.cs"
+								codeline="87"
+								loglvl="Success"
+								itemindex="1">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

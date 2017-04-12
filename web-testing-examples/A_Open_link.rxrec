@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3d857058-892e-4da1-97ed-72be751e55ad"
+mode="Desktop"
+rxversion="7.0">
+	<name>
+		A_Open_link
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="A_Open_link"
+	namespace="web_testing_examples">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://www.ranorex.com/web-testing-examples/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="ccd4f383-1cf1-4df3-8f1a-60a47f4ce3f9"
+	name="web_testing_examplesRepository"
+	relativepath="web-testing-examplesRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="web_testing_examplesRepository"
+		namespace="web_testing_examples">
+		</codegen>
+		<rootfolder
+		id="71c46e42-d3c5-4a80-9435-9c648c72ebb0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		A_Open_link.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

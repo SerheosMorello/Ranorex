@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{64BDC7E0-3DE7-4258-AA2F-ADB020FE5B61}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>web_testing_examples</RootNamespace>
+    <AssemblyName>web-testing-examples</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>6ab9f624-3532-44f0-83be-bd396310b103</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>82bc8d3f-61c6-4aaf-932b-939026eb6dec</id>
+    </Compile>
+    <Compile Include="B_Click_menu.cs">
+      <BoundTo>27a4404e-a3a6-455d-a499-1723304384e0</BoundTo>
+      <DependentUpon>B_Click_menu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fb6f4754-faa9-4dc7-aab4-9abc3d550171</id>
+    </Compile>
+    <Compile Include="B_Click_menu.UserCode.cs">
+      <BoundTo>27a4404e-a3a6-455d-a499-1723304384e0</BoundTo>
+      <DependentUpon>B_Click_menu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ab89ca99-4c4d-4c91-a89c-48206b3c0b9a</id>
+    </Compile>
+    <Compile Include="C_Fill_Test_Form.cs">
+      <BoundTo>164720c5-c19d-424e-9ece-6bb0b9338dd8</BoundTo>
+      <DependentUpon>C_Fill_Test_Form.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>497c7bde-bda4-4df2-8eb3-9450642544a9</id>
+    </Compile>
+    <Compile Include="C_Fill_Test_Form.UserCode.cs">
+      <BoundTo>164720c5-c19d-424e-9ece-6bb0b9338dd8</BoundTo>
+      <DependentUpon>C_Fill_Test_Form.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3eb3869a-feb1-48c9-892d-427337d5c26b</id>
+    </Compile>
+    <Compile Include="D_Check_value.cs">
+      <BoundTo>25acb4b1-c829-4059-a9ed-0bd9e09afd06</BoundTo>
+      <DependentUpon>D_Check_value.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>42a59e65-dbce-484f-9fd8-695bec1df134</id>
+    </Compile>
+    <Compile Include="D_Check_value.UserCode.cs">
+      <BoundTo>25acb4b1-c829-4059-a9ed-0bd9e09afd06</BoundTo>
+      <DependentUpon>D_Check_value.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8bcf701f-b395-44a5-aecf-17cd2958bc37</id>
+    </Compile>
+    <Compile Include="E_Fill_Test_form_with_Ajax.cs">
+      <BoundTo>898b72e5-268e-4bd7-92e8-bc6bbd3d4f50</BoundTo>
+      <DependentUpon>E_Fill_Test_form_with_Ajax.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d8b9f2ee-963d-4b41-92e1-a0b5838675a0</id>
+    </Compile>
+    <Compile Include="E_Fill_Test_form_with_Ajax.UserCode.cs">
+      <BoundTo>898b72e5-268e-4bd7-92e8-bc6bbd3d4f50</BoundTo>
+      <DependentUpon>E_Fill_Test_form_with_Ajax.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c9f657a-0ffd-40ef-adc3-465ea93509c7</id>
+    </Compile>
+    <Compile Include="F_Check_value.cs">
+      <BoundTo>40b9c31c-dc6b-45fb-a75b-d355f7dd88cd</BoundTo>
+      <DependentUpon>F_Check_value.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>06cd4b23-d6db-4252-9d0a-64615c194f46</id>
+    </Compile>
+    <Compile Include="F_Check_value.UserCode.cs">
+      <BoundTo>40b9c31c-dc6b-45fb-a75b-d355f7dd88cd</BoundTo>
+      <DependentUpon>F_Check_value.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f52ca275-3a80-4322-82a8-591520d3b724</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>fdf57a27-3ad0-4a83-869b-9d03841ca43b</id>
+    </Compile>
+    <Compile Include="A_Open_link.cs">
+      <BoundTo>d3ec7451-b0be-43a7-a7f0-d64288182f3e</BoundTo>
+      <DependentUpon>A_Open_link.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0b84ed3b-a893-4f23-8053-8ac422318b69</id>
+    </Compile>
+    <Compile Include="A_Open_link.UserCode.cs">
+      <BoundTo>d3ec7451-b0be-43a7-a7f0-d64288182f3e</BoundTo>
+      <DependentUpon>A_Open_link.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8b8cbca1-0cc8-4596-bdd7-20b3446c7b4e</id>
+    </Compile>
+    <Compile Include="Repository1.cs">
+      <BoundTo>BA321C06-3EC4-42AC-BDB0-2172FAD4A5C3</BoundTo>
+      <DependentUpon>Repository1.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>d7cd27c9-c739-418a-b85b-f1fbaee4c05f</id>
+    </Compile>
+    <Compile Include="web-testing-examplesRepository.cs">
+      <BoundTo>6ab9f624-3532-44f0-83be-bd396310b103</BoundTo>
+      <DependentUpon>web-testing-examplesRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>3c59983c-7fb5-43cc-8143-dd126251ac39</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>40892099-667c-4486-afa9-e8ebb7499dfd</id>
+    </None>
+    <None Include="A_Open_link.rxrec">
+      <id>d3ec7451-b0be-43a7-a7f0-d64288182f3e</id>
+      <recordtableid>3d857058-892e-4da1-97ed-72be751e55ad</recordtableid>
+      <BoundTo>6ab9f624-3532-44f0-83be-bd396310b103</BoundTo>
+    </None>
+    <None Include="B_Click_menu.rxrec">
+      <BoundTo>6ab9f624-3532-44f0-83be-bd396310b103</BoundTo>
+      <id>27a4404e-a3a6-455d-a499-1723304384e0</id>
+      <recordtableid>2cf9e796-d548-4cee-aef1-f1c04f6c053f</recordtableid>
+    </None>
+    <None Include="C_Fill_Test_Form.rxrec">
+      <BoundTo>6ab9f624-3532-44f0-83be-bd396310b103</BoundTo>
+      <id>164720c5-c19d-424e-9ece-6bb0b9338dd8</id>
+      <recordtableid>190c882f-8743-472d-98c4-31007acf4b97</recordtableid>
+    </None>
+    <None Include="D_Check_value.rxrec">
+      <BoundTo>6ab9f624-3532-44f0-83be-bd396310b103</BoundTo>
+      <id>25acb4b1-c829-4059-a9ed-0bd9e09afd06</id>
+      <recordtableid>3781234b-0d5d-43ce-921d-b55563d3c1ac</recordtableid>
+    </None>
+    <None Include="E_Fill_Test_form_with_Ajax.rxrec">
+      <BoundTo>6ab9f624-3532-44f0-83be-bd396310b103</BoundTo>
+      <id>898b72e5-268e-4bd7-92e8-bc6bbd3d4f50</id>
+      <recordtableid>c674ffe9-249b-436b-8ae0-d59f9d650269</recordtableid>
+    </None>
+    <None Include="F_Check_value.rxrec">
+      <BoundTo>6ab9f624-3532-44f0-83be-bd396310b103</BoundTo>
+      <id>40b9c31c-dc6b-45fb-a75b-d355f7dd88cd</id>
+      <recordtableid>0f357fa2-f0a0-4342-8e07-1bba698ab656</recordtableid>
+    </None>
+    <None Include="Repository1.rximg">
+      <BoundTo>BA321C06-3EC4-42AC-BDB0-2172FAD4A5C3</BoundTo>
+      <DependentUpon>Repository1.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>510f17bb-8e3f-48c3-a243-ec2382a7b0d7</id>
+    </None>
+    <None Include="Repository1.rxrep">
+      <id>BA321C06-3EC4-42AC-BDB0-2172FAD4A5C3</id>
+      <repoid>bf3fc500-c998-45a6-bf69-a7c2aef63446</repoid>
+      <reporootid>31d089f6-6729-4dd6-a354-ccd6cfe34811</reporootid>
+    </None>
+    <Content Include="testvar.csv">
+      <BoundTo>1fadbcef-9a10-4753-b73d-54ec0b6b4ea2</BoundTo>
+      <DependentUpon>web-testing-examples.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>cf927fdb-e1fe-413c-9013-b65e3a2b9275</id>
+    </Content>
+    <None Include="web-testing-examplesRepository.rximg">
+      <BoundTo>6ab9f624-3532-44f0-83be-bd396310b103</BoundTo>
+      <DependentUpon>web-testing-examplesRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>a7eb68dc-5b8e-44ac-bb21-1dc6bbb08ee7</id>
+    </None>
+    <None Include="web-testing-examplesRepository.rxrep">
+      <id>6ab9f624-3532-44f0-83be-bd396310b103</id>
+      <repoid>ccd4f383-1cf1-4df3-8f1a-60a47f4ce3f9</repoid>
+      <reporootid>71c46e42-d3c5-4a80-9435-9c648c72ebb0</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web-testing-examples.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d6ac01cd-4d25-4b9c-b800-b38ac4b3415f</id>
+    </Content>
+    <Content Include="web-testing-examples.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1fadbcef-9a10-4753-b73d-54ec0b6b4ea2</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

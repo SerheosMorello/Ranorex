@@ -1,0 +1,10 @@
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\bin\Debug\web-testing-examples.rxtmg
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\bin\Debug\web-testing-examples.rxtst
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\bin\Debug\web-testing-examples.exe.config
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\bin\Debug\web-testing-examples.exe
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\bin\Debug\web-testing-examples.pdb
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\obj\x86\Debug\web-testing-examples.csprojResolveAssemblyReference.cache
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\obj\x86\Debug\web-testing-examples.exe
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\obj\x86\Debug\web-testing-examples.pdb
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\bin\Debug\RepositoryImages\web_testing_examplesRepository71c46e42.rximgres
+C:\Users\Sergii.Pankrashyn\Documents\Ranorex\RanorexStudio Projects\web-testing-examples\web-testing-examples\bin\Debug\testvar.csv

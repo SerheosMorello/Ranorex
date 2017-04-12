@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="web-testing-examples.rxtst" />
+    <Element value="A_Open_link.rxrec" />
+    <Element value="B_Click_menu.rxrec" />
+    <Element value="C_Fill_Test_Form.rxrec" />
+    <Element value="D_Check_value.rxrec" />
+    <Element value="E_Fill_Test_form_with_Ajax.rxrec" />
+    <Element value="F_Check_value.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
